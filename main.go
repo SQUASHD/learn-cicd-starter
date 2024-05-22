@@ -20,6 +20,7 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 )
 
+// dummy comment
 type apiConfig struct {
 	DB *database.Queries
 }
