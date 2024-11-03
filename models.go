@@ -42,6 +42,7 @@ func databaseNoteToNote(post database.Note) Note {
 	}
 }
 
+// test ci
 func databasePostsToPosts(notes []database.Note) []Note {
 	result := make([]Note, len(notes))
 	for i, note := range notes {
